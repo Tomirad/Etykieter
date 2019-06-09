@@ -1,0 +1,22 @@
+{
+    "name": "anexbaby/etykieter",
+    "description": "Drukowanie etykiet do Zebra GT420T",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Tomasz Trela",
+            "email": "tomasz.trela@gmail.com"
+        }
+    ],
+    "require": {
+        "picqer/php-barcode-generator": "^0.3.0"
+    },
+    "require-dev": {
+	"mpdf/mpdf": "^8"
+    },
+    "autoload": {
+	"psr-4" : {
+	    "Treto\\" : "lib/"
+	}
+    }
+}
